@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="user">
+        <view><text>{{$t.home.user.name}}:</text>{{userInfo.name}}</view>
+        <view><text>{{$t.home.user.sex}}:</text>{{userInfo.sex}}</view>
+        <view><text>{{$t.home.user.age}}:</text>{{userInfo.age}}</view>
+        <view><text>{{$t.home.user.info}}:</text>{{userInfo.desc}}</view>
+    </view>
+
+    <view class="ref">
+        <view class="title">{{$t.home.ref}}</view>
+        <view>{{$t.home.user.desc_value}}</view>
+    </view>
+
+    <view class="select mt-20">
+        <view class="title mt-20">{{$t.home.tips}}</view>
+        <radio-group  bindchange="switchLanguage">
+            <radio model:checked="{{lang=='zh'}}" value="zh">中文</radio>
+            <radio  model:checked="{{lang=='en'}}" value="en">English</radio>
+        </radio-group>
+    </view>
+
+</view>

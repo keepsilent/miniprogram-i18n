@@ -1,0 +1,38 @@
+/**index.wxss**/
+
+.mt-20 {
+  margin-top: 20rpx;
+}
+
+.mr-20 {
+  margin-right: 20rpx;
+}
+
+.pr-20 {
+  padding-right: 20rpx;
+}
+
+.user {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.user text {
+  display: inline-block;
+  width: 120rpx;
+  margin-right: 15rpx;
+  text-align: right;
+}
+
+.ref {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.select .title { text-align: center; }
+.select radio-group {
+  width: fit-content;
+  margin: 20rpx auto 0;
+}
+.select radio { padding-right: 30rpx; }
+.select radio:last-child { padding-right: 0;}
